@@ -1,0 +1,371 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"array_key",
+				"array_key_exists"
+			],
+			[
+				"ho",
+				"hoOptionalParams"
+			],
+			[
+				"array_ke",
+				"array_key_exists"
+			],
+			[
+				"send",
+				"sendLeadToPartner"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"inlin",
+				"inline-block"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"pa",
+				"Package Control: List Packages"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/jurby/Dropbox/Server/Install Ubuntu 11.10/ubuntu-11.10-install",
+		"/Users/jurby/test/dev/libs/Elo/Services/Ferratum/Loan.php",
+		"/Users/jurby/test/dev/libs/Elo/Cron/Ferratum.php",
+		"/Users/jurby/test/dev/libs/Elo/Config/config.xml",
+		"/Users/jurby/test/dev/libs/Elo/Cron/FerratumImproved.php",
+		"/Users/jurby/test/dev/libs/Elo/Cron/FerratumSender.php",
+		"/Users/jurby/test/dev/libs/Elo/Services/Abstract.php",
+		"/Users/jurby/test/dev/libs/Elo/Forms/Energy/Gas.php",
+		"/Users/jurby/test/dev/libs/Elo/Forms/Energy/Electricity.php",
+		"/Users/jurby/test/dev/libs/Elo/Services/Hasoffers/Service.php",
+		"/Users/jurby/test/dev/libs/Elo/Services/Provident.php",
+		"/Users/jurby/test/dev/libs/Elo/Controllers/ParamController.php",
+		"/Users/jurby/test/dev/iframes_data/public/css/techmenu.css",
+		"/Users/jurby/test/._.apdisk",
+		"/Users/jurby/test/dev/libs/Elo/Forms/Provident.php",
+		"/Users/jurby/test/dev/iframes_data/application/energie/controllers/ElektrinaController.php",
+		"/Users/jurby/test/dev/libs/Elo/Cron/ProfiCredit.php",
+		"/Users/jurby/test/dev/libs/Elo/Cron/ProfiCreditResender.php",
+		"/Users/jurby/test/dev/libs/Elo/Services/ProfiCredit/Loan.php",
+		"/Users/jurby/test/dev/iframes_data/application/default/views/scripts/index/index.phtml",
+		"/Users/jurby/test/dev/iframes_data/application/energie/views/scripts/elektrina/nabidky.phtml",
+		"/Users/jurby/test/dev/iframes_data/application/kreditni-karty/controllers/ZadostOKreditniKartuController.php",
+		"/Users/jurby/test/dev/libs/Elo/Forms/Citibank/Common.php",
+		"/Users/jurby/test/dev/libs/Elo/Services/Citibank/CreditCard.php",
+		"/Users/jurby/test/dev/libs/Elo/Services/Citibank/Loan.php",
+		"/Users/jurby/Dropbox/WORK/ElephantOrchestra/Work/2013-11-15-citibank-api/citibank-api.txt",
+		"/Users/jurby/test/dev/libs/Elo/Services/Citibank/Abstract.php",
+		"/Users/jurby/test/dev/iframes_data/application/kreditni-karty/controllers/CitiKreditniKartaClassicController.php",
+		"/Users/jurby/test/dev/iframes_data/application/kreditni-karty/controllers/IndexController.php",
+		"/Users/jurby/test/dev/libs/Elo/Cron/Citybank.php",
+		"/Users/jurby/test/dev/libs/Elo/Toolbox/Crypt.php",
+		"/Users/jurby/test/dev/uspory_data/application/modules/articles/models/ArticleTextTable.php",
+		"/Users/jurby/test/dev/uspory_data/application/modules/articles/controllers/IndexController.php",
+		"/Users/jurby/test/dev/uspory_data/application/models/ArticleTable.php",
+		"/Users/jurby/test/dev/uspory_data/library/EO/Model/Articles.php",
+		"/Users/jurby/test/dev/uspory_data/application/clanky/controllers/IndexController.php",
+		"/Users/jurby/test/dev/uspory_data/application/energie/controllers/PorovnaniNabidekPlynuController.php",
+		"/Users/jurby/test/dev/ipujcky_data/public/.htaccess",
+		"/Users/jurby/test/dev/ipujcky_data/application/modules/default/controllers/IndexController.php",
+		"/Users/jurby/test/dev/uspory_data/application/pujcky/views/scripts/porovnani-pujcek/index.phtml",
+		"/Users/jurby/test/dev/uspory_data/application/admin/controllers/ArticleController.php",
+		"/Users/jurby/test/dev/uspory_data/library/EO/Controller/AbstractController.php",
+		"/Users/jurby/test/dev/uspory_data/application/modules/articles/views/templates/sidebar-slovnik-pojmu.phtml",
+		"/Users/jurby/test/dev/uspory_data/application/clanky/views/scripts/index/index.phtml",
+		"/Users/jurby/test/dev/uspory_data/application/energie/views/scripts/porovnani-nabidek-elektriny/nabidky.phtml",
+		"/Users/jurby/test/dev/libs/Elo/EOISSupport/EnergyElectricity.php",
+		"/Users/jurby/Dropbox/Projects/eois-transform-csv/ElectricityRateDescriptions.sql",
+		"/Users/jurby/Dropbox/Projects/eois-transform-csv/generator.php",
+		"/Users/jurby/Dropbox/Projects/eois-transform-csv/data.csv",
+		"/Users/jurby/Dropbox/Projects/taekwondo-strancice.github.com/_posts/novinky/2013-09-01-nabor-novych-clenu-2013.md",
+		"/Users/jurby/Dropbox/Projects/taekwondo-strancice.github.com/_posts/novinky/2013-04-07-uspesne-slozeni-zkousek-na-mistrovske-stupne-I-III-dan.md",
+		"/Users/jurby/Dropbox/Projects/taekwondo-strancice.github.com/_posts/novinky/2013-02-23-ohlednuti-za-mistrovstvim-cr-2013.md",
+		"/Users/jurby/Dropbox/Projects/taekwondo-strancice.github.com/_posts/media/2013-03-02-test.md",
+		"/Users/jurby/Dropbox/Projects/taekwondo-strancice.github.com/_posts/kalendar/2013-10-17-sportovni-soustredeni-bela-pod-bezdezem-2013.md",
+		"/Users/jurby/Dropbox/Projects/taekwondo-strancice.github.com/_posts/kalendar/2013-09-03-sportovni-soustredeni-straz-pod-ralskem-2013.md",
+		"/Users/jurby/Dropbox/Projects/taekwondo-strancice.github.com/_posts/kalendar/2013-09-01-zahajeni-sezony-2013.md",
+		"/Users/jurby/Dropbox/Projects/taekwondo-strancice.github.com/_posts/kalendar/2013-05-25-III-kolo-ceske-narodni-ligy-pecky.md",
+		"/Users/jurby/Dropbox/Projects/taekwondo-strancice.github.com/_posts/kalendar/2013-05-18-sonkal-open-2013.md",
+		"/Users/jurby/Dropbox/Projects/taekwondo-strancice.github.com/_posts/kalendar/2013-05-18-seminar-bojovych-umeni.md",
+		"/Users/jurby/Dropbox/Projects/taekwondo-strancice.github.com/_posts/kalendar/2013-05-17-sportovni-soustredeni-straz-pod-ralskem.md",
+		"/Users/jurby/Dropbox/Projects/taekwondo-strancice.github.com/_posts/kalendar/2013-04-13-best-of-best-2013.md",
+		"/Users/jurby/Dropbox/Projects/taekwondo-strancice.github.com/_posts/kalendar/2013-04-07-zkousky-na-technicke-stupne-dan-ceske-budejovice.md",
+		"/Users/jurby/Dropbox/Projects/taekwondo-strancice.github.com/_posts/kalendar/2013-03-02-budweis-grand-prix-taekwon-do-itf-open.md",
+		"/Users/jurby/Dropbox/Projects/taekwondo-strancice.github.com/_posts/kalendar/2013-02-01-mcr-2013.md",
+		"/Users/jurby/Dropbox/Projects/taekwondo-strancice.github.com/_posts/kalendar/2012-12-16-posledni-trenink-v-tomto-roce-a-prvni-trenink-v-novem-roce.md",
+		"/Users/jurby/Dropbox/Projects/taekwondo-strancice.github.com/_posts/kalendar/2012-11-27-zkousky-na-zakovske-technicke-stupne.md",
+		"/Users/jurby/Dropbox/Projects/taekwondo-strancice.github.com/_posts/kalendar/2012-11-01-vanocni-pohar-2012.md",
+		"/Users/jurby/Dropbox/Projects/taekwondo-strancice.github.com/_posts/kalendar/2012-05-03-zkousky-na-zakovske-technicke-stupne.md",
+		"/Users/jurby/Dropbox/Projects/taekwondo-strancice.github.com/_posts/kalendar/2013-09-22-vanocni-pohar-2013.md",
+		"/Users/jurby/Dropbox/Projects/taekwondo-strancice.github.com/kontakt/index.md",
+		"/Users/jurby/Dropbox/Projects/taekwondo-strancice.github.com/treneri/jaroslav-urbanek/index.md",
+		"/Users/jurby/Dropbox/Projects/taekwondo-strancice.github.com/bazar/index.md",
+		"/Users/jurby/Dropbox/Projects/taekwondo-strancice.github.com/_config.yml",
+		"/Users/jurby/Dropbox/Projects/taekwondo-strancice.github.com/assets/themes/twitter/js/main.js",
+		"/Users/jurby/Dropbox/Projects/taekwondo-strancice.github.com/treneri/josef-kubat/index.md",
+		"/Users/jurby/Dropbox/Projects/taekwondo-strancice.github.com/treneri/petra-vychopen-blahova/index.md",
+		"/Users/jurby/Dropbox/Projects/taekwondo-strancice.github.com/treneri/index.md",
+		"/Users/jurby/Documents/test",
+		"/Users/jurby/Dropbox/Projects/taekwondo-strancice.github.com/obchod/index.md",
+		"/Users/jurby/Dropbox/Projects/taekwondo-strancice.github.com/bazar/index.mb0",
+		"/Users/jurby/Dropbox/Projects/taekwondo-strancice.github.com/co-s-sebou/index.md",
+		"/Users/jurby/Dropbox/Projects/taekwondo-strancice.github.com/_includes/themes/twitter/page.html",
+		"/Users/jurby/Dropbox/Projects/taekwondo-strancice.github.com/assets/themes/twitter/css/main.css",
+		"/Users/jurby/Dropbox/Projects/taekwondo-strancice.github.com/_includes/custom/pages_left_menu",
+		"/Users/jurby/Dropbox/Projects/taekwondo-strancice.github.com/treneri/petra-blahova/index.md",
+		"/Users/jurby/Dropbox/Projects/taekwondo-strancice.github.com/_plugins/sorted_for.rb",
+		"/Users/jurby/Dropbox/Projects/taekwondo-strancice.github.com/_plugins/debug.rb",
+		"/Users/jurby/Dropbox/Projects/taekwondo-strancice.github.com/_plugins/categories_list.rb",
+		"/Users/jurby/Dropbox/Projects/taekwondo-strancice.github.com/taekwon-do/teorie/index.md",
+		"/Users/jurby/Dropbox/Projects/taekwondo-strancice.github.com/taekwon-do/historie/index.md",
+		"/Users/jurby/Dropbox/Projects/taekwondo-strancice.github.com/index.html",
+		"/Users/jurby/Dropbox/WORK/ElephantOrchestra/MailJob.cs",
+		"/Users/jurby/Dropbox/Projects/taekwondo-strancice.github.com/_includes/themes/twitter/page-landing.html",
+		"/Users/jurby/Dropbox/Projects/taekwondo-strancice.github.com/_includes/themes/twitter/post-calendar.html",
+		"/Users/jurby/Dropbox/Projects/taekwondo-strancice.github.com/_posts/promo/2012-10-01-mesic-zdarma.md",
+		"/Users/jurby/Dropbox/Projects/taekwondo-strancice.github.com/_posts/promo/2013-09-01-nabor-2013.md",
+		"/Users/jurby/Dropbox/Projects/taekwondo-strancice.github.com/_includes/themes/twitter/default.html",
+		"/home/jurby/.gvfs/media na medea/video/Movies/Jack.the.Giant.Slayer.2013.1080p.BluRay.x264-SPARKS [PublicHD]/jack.the.giant.slayer.2013.1080p.bluray.x264-sparks.srt",
+		"/home/jurby/.gvfs/media na medea/video/Serials/Game of Thrones/S03/Game.of.Thrones.S03E08.720p.HDTV.x264-EVOLVE.srt",
+		"/home/jurby/.gvfs/media na medea/video/Serials/Game of Thrones/S03/Game Of Thrones S03-E01 (2012)NLtoppers.srt",
+		"/home/jurby/.gvfs/media na medea/video/Serials/Game of Thrones/S03/Game.of.Thrones.S03E08.Second.Sons.1080p.WEB-DL.DD5.1.H.264-NTb.srt",
+		"/home/jurby/.gvfs/media na medea/video/Serials/Game of Thrones/S03/Game.of.Thrones.S03E08.720p.HDTV.x264.Dual.Audio.srt",
+		"/home/jurby/Stažené/307-cz/Game.of.Thrones.S03E07.The.Bear.and.the.Maiden.Fair.1080p.WEB-DL.DD5.1.H.264-NTb.srt",
+		"/home/jurby/Stažené/307-cz/Game.of.Thrones.S03E07.HDTV.x264-2HD.srt",
+		"/home/jurby/.gvfs/media na medea/video/Serials/Game of Thrones/S03/Game.of.Thrones.S03E06.The.Climb.1080p.WEB-DL.DD5.1.AAC2.0.H.264-YFN.srt",
+		"/home/jurby/.gvfs/media na medea/video/Serials/Game of Thrones/S03/Game.of.Thrones.S03E05.Kissed.by.Fire.1080p.WEB-DL.DD5.1.H.264-NTb.srt",
+		"/home/jurby/Dropbox/Projects/taekwondo-strancice.github.com/_posts/kalendar/2013-05-25-III-kolo-ceske-narodni-ligy-pecky.md",
+		"/home/jurby/Dropbox/Projects/taekwondo-strancice.github.com/_includes/custom/calendar_list",
+		"/home/jurby/Dropbox/Projects/taekwondo-strancice.github.com/_includes/themes/twitter/post-calendar.html",
+		"/home/jurby/.gvfs/media na medea/video/Serials/Game of Thrones/S03/Game.of.Thrones.S03E04.1080p.HDTV.x264-QCF.2.srt",
+		"/home/jurby/.gvfs/media na medea/video/Serials/Game of Thrones/S03/Game.of.Thrones.S03E04.1080p.HDTV.x264-QCF.3.srt",
+		"/home/jurby/.gvfs/media na medea/video/Serials/Game of Thrones/S03/Game.of.Thrones.S03E04.1080p.HDTV.x264-QCF.srt",
+		"/home/jurby/Dropbox/Projects/taekwondo-strancice.github.com/index.html",
+		"/home/jurby/Dropbox/Projects/taekwondo-strancice.github.com/_posts/kalendar/2013-05-18-sonkal-open-2013.md",
+		"/home/jurby/Dropbox/Projects/taekwondo-strancice.github.com/_posts/kalendar/2013-04-20-sonkal-open-2013.md",
+		"/home/jurby/Dropbox/Projects/taekwondo-strancice.github.com/_posts/kalendar/2013-05-17-sportovni-soustredeni-straz-pod-ralskem.md",
+		"/home/jurby/.gvfs/media na medea/video/Serials/Game of Thrones/S03/Game.of.Thrones.S03E03.Walk.of.Punishment.1080p.WEB-DL.DD5.1.AAC2.0.H.264-YFN.srt",
+		"/home/jurby/.gvfs/media na medea/video/Serials/Game of Thrones/S03/Game.of.Thrones.S03E02.Dark.Wings.Dark.Words.1080p.WEB-DL.DD5.1.H.264-NTb.srt",
+		"/home/jurby/.gvfs/media na medea/video/Serials/Game of Thrones/S03/Game Of Thrones S03-E01 (2012)NLtoppers.2.srt",
+		"/home/jurby/.gvfs/media na medea/video/Serials/Game of Thrones/S03/Game Of Thrones S03-E01 (2012)NLtoppers.4.srt",
+		"/home/jurby/.gvfs/media na medea/video/Serials/Game of Thrones/S03/Game Of Thrones S03-E01 (2012)NLtoppers.3.srt",
+		"/home/jurby/.gvfs/media na medea/video/Serials/Game of Thrones/S03/Game.of.Thrones.S03E01.Valar.Dohaeris.1080p.WEB-DL.DD5.1.H.264-NTb.srt",
+		"/home/jurby/.gvfs/media na medea/video/Serials/Game of Thrones/S03/Game.of.Thrones.S03E01.HDTV.x264-2HD.srt",
+		"/home/jurby/.gvfs/media na medea/video/Serials/Game of Thrones/S03/Game.of.Thrones.S03E01.REPACK.720p.HDTV.x264-EVOLVE.srt",
+		"/home/jurby/.gvfs/media na medea/video/Serials/Game of Thrones/S03/Game.of.Thrones.S03E01.720p.HDTV.x264-EVOLVE.srt",
+		"/home/jurby/Dropbox/Projects/taekwondo-strancice.github.com/_posts/novinky/2013-02-23-ohlednuti-za-mistrovstvim-cr-2013.md",
+		"/home/jurby/Dropbox/Projects/taekwondo-strancice.github.com/_posts/novinky/2013-04-07-uspesne-slozeni-zkousek-na-mistrovske-stupne-I-III-dan.md",
+		"/home/jurby/Dropbox/Projects/taekwondo-strancice.github.com/_includes/themes/twitter/default.html"
+	],
+	"find":
+	{
+		"height": 51.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/Users/jurby/Dropbox/Projects/taekwondo-strancice.github.com/",
+			"/Users/jurby/Dropbox/Projects/taekwondo-strancice.github.com/_includes",
+			"/Users/jurby/Dropbox/Projects/taekwondo-strancice.github.com",
+			"/Users/jurby/Dropbox/Projects/jurby.github.com"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"$this->_params",
+			"_getXmlFeed",
+			"_updateType",
+			"old",
+			"$this->_params",
+			"$this->_params->old",
+			"$this->_params",
+			"ferratum",
+			"old",
+			"provi",
+			"source",
+			"kreditni",
+			"o2",
+			"Crypt",
+			"cardType",
+			"convertType",
+			"cardType",
+			"perex",
+			"Description",
+			"<u>",
+			"[ElectricityRateNames]",
+			"[dbo].[ElectricityRateNames]",
+			"[ElectricityRates]",
+			"(.+)\\;(.+)\\;\\\"(.+)\\\"",
+			"ˆ(.+)\\;(.+)\\;\"(.+)\"$",
+			"CET",
+			" UTC",
+			"xx",
+			"&",
+			"&\n",
+			">\n",
+			"h3",
+			"thumb",
+			"nil",
+			"}}]\n",
+			"si",
+			"this_month",
+			"Bcrypt",
+			"navbar-i",
+			"font-fami",
+			"carousel",
+			"jumbotron",
+			"header",
+			"tkd",
+			"site.safe",
+			"site.save",
+			"{% include JB/posts_collate %}",
+			"---",
+			"-/>",
+			"15px"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"[EO].[dbo].[ElectricityRateNames]",
+			"[ElectricityRateNames]",
+			"INSERT [dbo].[ElectricityRates] ([Name], [Provider_Id], [Rate_Id]) VALUES (N'$3', $1, $2);",
+			" CET",
+			"&amp;"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"custom",
+				"_includes/themes/twitter/post.html"
+			],
+			[
+				"udejb/posts_collate",
+				"_includes/JB/posts_collate"
+			],
+			[
+				"posts_collate",
+				"_includes/JB/posts_collate"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"debug",
+				"/Users/jurby/Dropbox/Projects/jurby.github.com/jurby.guthub.com.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 291.0,
+	"status_bar_visible": true
+}
