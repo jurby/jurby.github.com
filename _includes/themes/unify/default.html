@@ -20,7 +20,7 @@
     <!-- CSS Global Compulsory -->
     <link rel="stylesheet" href="{{ ASSET_PATH }}/plugins/bootstrap/css/bootstrap.min.css" />
     <link rel="stylesheet" href="{{ ASSET_PATH }}/css/style.css" />
-    <link rel="stylesheet" href="{{ ASSET_PATH }}/css/headers/header1.css" />
+    <link rel="stylesheet" href="{{ ASSET_PATH }}/css/headers/header2.css" />
     <link rel="stylesheet" href="{{ ASSET_PATH }}/css/responsive.css" />
     <link rel="shortcut icon" href="{{ BASE_PATH }}/favicon.ico" />
     <!-- CSS Implementing Plugins -->
@@ -29,113 +29,15 @@
     <link rel="stylesheet" href="{{ ASSET_PATH }}/plugins/parallax-slider/css/parallax-slider.css" />
     <!-- CSS Theme -->
     <link rel="stylesheet" href="{{ ASSET_PATH }}/css/themes/default.css" />
-    <link rel="stylesheet" href="{{ ASSET_PATH }}/css/themes/headers/default.css" />
 
     <link href="{{ BASE_PATH }}{{ site.JB.atom_path }}" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
     <link href="{{ BASE_PATH }}{{ site.JB.rss_path }}" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
 </head>
 <body>
-    <!--=== Style Switcher ===-->    
-    <i class="style-switcher-btn icon-cogs hidden-xs"></i>
-    <div class="style-switcher">
-        <div class="theme-close"><i class="icon-remove"></i></div>
-        <div class="theme-heading">Colors</div>
-            <ul class="list-unstyled">
-                <li class="theme-default theme-active" data-style="default" data-header="light"></li>
-                <li class="theme-blue" data-style="blue" data-header="light"></li>
-                <li class="theme-orange" data-style="orange" data-header="light"></li>
-                <li class="theme-red" data-style="red" data-header="light"></li>
-                <li class="theme-light last" data-style="light" data-header="light"></li>
-            </ul>
-        <div style="margin-bottom:18px;"></div>
-        <div class="theme-heading">Layouts</div>
-        <div class="text-center">
-            <a href="#" class="btn-u btn-u-green btn-block active-switcher-btn wide-layout-btn">Wide</a>
-            <a href="#" class="btn-u btn-u-green btn-block boxed-layout-btn">Boxed</a>
-        </div>
-    </div><!--/style-switcher-->
-    <!--=== End Style Switcher ===-->    
-
-{% comment %}<!--
-  <!--=== Top ===-->    
-  <div class="top">
-      <div class="container">         
-          <ul class="loginbar pull-right">
-              <li>
-                  <i class="icon-globe"></i>
-                  <a>Languages</a>
-                  <ul class="lenguages">
-                      <li class="active">
-                          <a href="#">English <i class="icon-ok"></i></a> 
-                      </li>
-                      <li><a href="#">Spanish</a></li>
-                      <li><a href="#">Russian</a></li>
-                      <li><a href="#">German</a></li>
-                  </ul>
-              </li>
-              <li class="devider"></li>   
-              <li><a href="page_faq.html">Help</a></li>  
-              <li class="devider"></li>   
-              <li><a href="page_login.html">Login</a></li>   
-          </ul>
-      </div>      
-  </div><!--/top-->
-  <!--=== End Top ===--> 
--->{% endcomment %}
-
     <!--=== Header ===-->    
     <div class="header">
-        <div class="navbar navbar-default" role="navigation">
-            <div class="container">
-                <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
-                        <span class="sr-only">Menu</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="{{ HOME_PATH }}">
-                        <img id="logo-header" src="{{ ASSET_PATH }}/img/logo1-default.png" alt="Logo">
-                    </a>
-                </div>
-
-                <div class="collapse navbar-collapse navbar-responsive-collapse">
-                    <ul class="nav navbar-nav navbar-right">
-                        {% comment %}<!--
-                        <li class="dropdown active">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false">
-                                Home
-                                <i class="icon-angle-down"></i>
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li class="active"><a href="index.html">Option 1: Default Page</a></li>
-                                <li><a href="page_home1.html">Option 2: Layer Slider</a></li>
-                                <li><a href="page_home2.html">Option 3: Revolution Slider</a></li>
-                                <li><a href="page_home3.html">Option 4: Amazing Content</a></li>
-                                <li><a href="page_home4.html">Option 5: Home Sidebar</a></li>
-                                <li><a href="page_home5.html">Option 6: Home Flatty</a></li>
-                                <li><a href="page_home6.html">Option 7: Home Magazine</a></li>
-                                <li><a href="page_home7.html">Option 8: Home Portfolio</a></li>
-                            </ul>
-                        </li>
-                        -->{% endcomment %}
-                        {% assign pages_list = site.pages %}
-                        {% assign group = 'navigation' %}
-                        {% include JB/pages_list %}
-                        <li class="hidden-sm"><a class="search"><i class="icon-search search-btn"></i></a></li>
-                    </ul>
-                    <div class="search-open">
-                        <div class="input-group">
-                            <input type="text" class="form-control" placeholder="Search">
-                            <span class="input-group-btn">
-                                <button class="btn-u" type="button">Go</button>
-                            </span>
-                        </div><!-- /input-group -->
-                    </div>                
-                </div><!-- /navbar-collapse -->
-            </div>    
-        </div>    
+        {% capture header_template %}themes/{{ page.theme.name }}/layout/header.html{% endcapture %}
+        {% include {{header_template}} %}  
     </div><!--/header-->
     <!--=== End Header ===-->  
 
@@ -143,100 +45,15 @@
 
     <!--=== Footer ===-->
     <div class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4 md-margin-bottom-40">
-                    <!-- About -->
-                    <div class="headline"><h2>About</h2></div>  
-                    <p class="margin-bottom-25 md-margin-bottom-40">Unify is an incredibly beautiful responsive Bootstrap Template for corporate and creative professionals.</p>    
-
-                    <!-- Monthly Newsletter -->
-                    <div class="headline"><h2>Monthly Newsletter</h2></div> 
-                    <p>Subscribe to our newsletter and stay up to date with the latest news and deals!</p>
-                    <form class="footer-subsribe">
-                        <div class="input-group">
-                            <input type="text" class="form-control" placeholder="Email Address">                            
-                            <span class="input-group-btn">
-                                <button class="btn-u" type="button">Subscribe</button>
-                            </span>
-                        </div><!-- /input-group -->                    
-                    </form>                         
-                </div><!--/col-md-4-->  
-                
-                <div class="col-md-4 md-margin-bottom-40">
-                    <div class="posts">
-                        <div class="headline"><h2>Recent Blog Entries</h2></div>
-                        <dl class="dl-horizontal">
-                            <dt><a href="#"><img src="{{ ASSET_PATH }}/img/sliders/elastislide/6.jpg" alt="" /></a></dt>
-                            <dd>
-                                <p><a href="#">Anim moon officia Unify is an incredibly beautiful responsive Bootstrap Template</a></p> 
-                            </dd>
-                        </dl>
-                        <dl class="dl-horizontal">
-                        <dt><a href="#"><img src="{{ ASSET_PATH }}/img/sliders/elastislide/10.jpg" alt="" /></a></dt>
-                            <dd>
-                                <p><a href="#">Anim moon officia Unify is an incredibly beautiful responsive Bootstrap Template</a></p> 
-                            </dd>
-                        </dl>
-                        <dl class="dl-horizontal">
-                        <dt><a href="#"><img src="{{ ASSET_PATH }}/img/sliders/elastislide/11.jpg" alt="" /></a></dt>
-                            <dd>
-                                <p><a href="#">Anim moon officia Unify is an incredibly beautiful responsive Bootstrap Template</a></p> 
-                            </dd>
-                        </dl>
-                    </div>
-                </div><!--/col-md-4-->
-
-                <div class="col-md-4">
-                    <!-- Monthly Newsletter -->
-                    <div class="headline"><h2>Contact Us</h2></div> 
-                    <address class="md-margin-bottom-40">
-                        25, Lorem Lis Street, Orange <br />
-                        California, US <br />
-                        Phone: 800 123 3456 <br />
-                        Fax: 800 123 3456 <br />
-                        Email: <a href="mailto:info@anybiz.com" class="">info@anybiz.com</a>
-                    </address>
-
-                    <!-- Stay Connected -->
-                    <div class="headline"><h2>Stay Connected</h2></div> 
-                    <ul class="social-icons">
-                        <li><a href="#" data-original-title="Feed" class="social_rss"></a></li>
-                        <li><a href="#" data-original-title="Facebook" class="social_facebook"></a></li>
-                        <li><a href="#" data-original-title="Twitter" class="social_twitter"></a></li>
-                        <li><a href="#" data-original-title="Goole Plus" class="social_googleplus"></a></li>
-                        <li><a href="#" data-original-title="Pinterest" class="social_pintrest"></a></li>
-                        <li><a href="#" data-original-title="Linkedin" class="social_linkedin"></a></li>
-                        <li><a href="#" data-original-title="Vimeo" class="social_vimeo"></a></li>
-                    </ul>
-                </div><!--/col-md-4-->
-            </div><!--/row-->   
-        </div><!--/container--> 
+        {% capture footer_template %}themes/{{ page.theme.name }}/layout/footer.html{% endcapture %}
+        {% include {{footer_template}} %}
     </div><!--/footer-->    
     <!--=== End Footer ===-->
 
     <!--=== Copyright ===-->
     <div class="copyright">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">                      
-                    <p class="copyright-space">
-                      &copy; {{ site.time | date: '%Y' }} {{ site.author.name }}
-                      <span class="pull-right text-muted">
-                        powered by
-                        <a href="http://dbtek.github.io/jekyll-bootstrap-3" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll-Bootstrap-3</a>
-                        and <a href="http://getbootstrap.com" target="_blank">Bootstrap 3.0.3</a>
-                        and theme <a href="http://htmlstream.com/preview/unify/page_home5.html" target="_blank">Unify</a>
-                      </span>
-                    </p>
-                </div>
-                <div class="col-md-6">  
-                    <a href="{{ BASE_PATH }}/">
-                        <img id="logo-footer" src="{{ ASSET_PATH }}/img/logo2-default.png" class="pull-right" alt="" />
-                    </a>
-                </div>
-            </div><!--/row-->
-        </div><!--/container--> 
+        {% capture copyright_template %}themes/{{ page.theme.name }}/layout/copyright.html{% endcapture %}
+        {% include {{copyright_template}} %}
     </div><!--/copyright--> 
     <!--=== End Copyright ===-->
 

@@ -35,6 +35,8 @@ author :
 #
 production_url : http://dovolenasumava.eu
 
+theme : unify
+
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
 JB :
@@ -133,7 +135,9 @@ JB :
   # where [HELPER] is the name of the helper you are overriding.
   #posts_collate :
   #  provider : "custom"
-  #pages_list :
-  #  provider : "custom"
+
+  pages_list :
+    provider : "custom"
+
   #tags_list :
   #  provider : "custom"
