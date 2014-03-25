@@ -1,6 +1,7 @@
 # This is the default format. 
 # For more see: http://jekyllrb.com/docs/permalinks/
 permalink: /:categories/:title
+#relative_permalinks: true
 paginate: 10
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", '*.scss', 'config.json', 'Gemfile', 'Gemfile.lock', 'Rakefile', 'wercker.yml', 'dovolenasumava.sublime-project', 'dovolenasumava.sublime-workspace']

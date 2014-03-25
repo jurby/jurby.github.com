@@ -1,9 +1,61 @@
-<div class="page-header">
-  <h1>{{ page.title }} {% if page.tagline %} <small>{{ page.tagline }}</small>{% endif %}</h1>
-</div>
+<!--=== Breadcrumbs ===-->
+<div class="breadcrumbs margin-bottom-40">
+    <div class="container">
+        <h1 class="pull-left">{{ page.title }} {% if page.tagline %} <small>{{ page.tagline }}</small>{% endif %}</h1>
+        <ul class="pull-right breadcrumb">
+            <li><a href="/">Úvod</a></li>
+            <li class="active">...</li>
+        </ul>
+    </div>
+</div><!--/breadcrumbs-->
+<!--=== End Breadcrumbs ===-->
 
-<div class="row">
-  <div class="col-xs-12">
-      {{ content }}
-  </div>
-</div>
+<!--=== Content Part ===-->
+<div class="container">
+    <div class="row">
+	{% assign menu = page.menu %}
+	{% if menu != nil %}
+		{% assign isArrayMenu = menu.first.href | size %}
+        <!--Begin Sidebar Menu-->
+        <div class="col-md-3">            
+            <ul class="list-group sidebar-nav-v1">
+				{% if isArrayMenu == 0 %}
+					{% assign pages_list = site.pages %}
+					{% include custom/pages_left_menu %}
+				{% else %}
+					{% comment %}<!--
+					{% assign category = page.url | split:'/' %}
+					{% if category contains menu %}
+						<li class="active"><a href="{{ BASE_PATH }}{{page.url}}#{{category.last}}"><i class="icon-chevron-right"></i> {{page.title}}</a></li>
+					{% else %}
+						<li><a href="{{ BASE_PATH }}{{page.url}}#{{category.last}}"><i class="icon-chevron-right"></i> {{page.title}}</a></li>
+					{% endif %}
+					-->{% endcomment %}
+					{% for menuItem in menu %}
+						{% if menuItem.name != null %}
+							<li class="list-group-item"><a href="{{ BASE_PATH }}{{page.url}}{{menuItem.href}}">{{menuItem.name}}</a></li>
+						{% endif %}
+					{% endfor %}
+					{% assign menuItem = nil %}
+					{% assign category = nil %}
+				{% endif %}
+            </ul>
+        </div>
+        <!--End Sidebar Menu-->
+        <!--Begin Content-->
+        <div class="col-md-9">
+        	{{ content }}
+        </div>
+        <!--End Content-->
+	{% else %}
+        <!--Begin Content-->
+        <div class="col-md-12">
+        	{{ content }}
+        </div>
+        <!--End Content-->
+	{% endif %}
+	{% assign isArrayMenu = nil %}
+	{% assign menu = nil %}
+    </div>          
+</div><!--/container-->     
+<!--=== End Content Part ===-->
