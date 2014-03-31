@@ -1,8 +1,9 @@
 ---
 layout: post
-category : lessons
-tagline: "Supporting tagline"
-tags : [intro, beginner, jekyll, tutorial]
+title: Pokoj Debrník
+category : room
+tagline: "3 lůžka"
+tags : [pokoj, ubytování]
 ---
 {% include JB/setup %}
 
