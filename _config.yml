@@ -1,15 +1,17 @@
 # This is the default format. 
 # For more see: http://jekyllrb.com/docs/permalinks/
 permalink: /:categories/:title
-#relative_permalinks: true
+relative_permalinks: false
 paginate: 10
+paginate_path: "novinky/page:num"
 
+include: ["_pages"]
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", '*.scss', 'config.json', 'Gemfile', 'Gemfile.lock', 'Rakefile', 'wercker.yml', 'dovolenasumava.sublime-project', 'dovolenasumava.sublime-workspace']
 pygments: true
 
 safe: true
 future: true
-lsi: true
+#lsi: true
 #prod_build: true
 
 timezone: Europe/Prague
