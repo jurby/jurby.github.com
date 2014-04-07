@@ -8,6 +8,27 @@ permalink: /tipy-v-okoli/
 ---
 {% include JB/setup %}
 
+<div class="row servive-block margin-bottom-10">
+{% for node in site.categories['tipy-v-okoli'] %}
+    {% if node.title != null %}
+    <div class="col-md-3 col-sm-6">
+        <div class="servive-block-in servive-block-colored servive-block-green">
+            <h4>{{ node.title }}</h4>
+            <div><i class="icon-bell"></i></div>
+            <p>
+            {% if node.content contains site.excerpt_separator %}
+                {{ node.content | split:site.excerpt_separator | first }}
+            {% else %}
+                <!-- Case for when no excerpt is defined -->
+                {{ node.content | strip_html | truncatewords: 20 }}
+            {% endif %}
+            <a href="{{ BASE_PATH }}{{ node.url }}">více</a></p>
+        </div>
+    </div>
+    {% endif %}
+{% endfor %}
+</div>
+
 <!--Service Blcoks -->
 <div class="row servive-block margin-bottom-10">
     <div class="col-md-3 col-sm-6">

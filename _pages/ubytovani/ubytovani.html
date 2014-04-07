@@ -5,27 +5,23 @@ tagline: Pokoje a společné prostory
 group: navigation
 weight: 2
 permalink: /ubytovani/
-menu:
-  - href: '#spolecne-prostory'
-    name: Společné prostory
-  - href: '#pokoj-prvni'
-    name: První pokoj
-  - href: '#pokoj-druhy'
-    name: Druhý pokoj
+menu : 
+  name : ubytovani
+  title : Úvodem
+  parent: false
 ---
 {% include JB/setup %}
 
-<a id="spolecne-prostory" class="shifted-anchor">&nbsp;</a>
-<div class="headline"><h2>Společné prostory</h2></div>
-<p>...</p>
-
-<a id="pokoj-prvni" class="shifted-anchor">&nbsp;</a>
-<div class="headline"><h2>První pokoj</h2></div>
-<p>...</p>
-
-<a id="pokoj-druhy" class="shifted-anchor">&nbsp;</a>
-<div class="headline"><h2>Druhý pokoj</h2></div>
-<p>...</p>
+{% for node in site.pages %}
+    {% if node.published != false and node.menu == 'ubytovani' %}
+        {% if node.title != null %}
+            <a id="{{ node.url | split:"#" | last | downcase }}" class="shifted-anchor">&nbsp;</a>
+            <div class="headline"><h2>{{ node.title }}</h2></div>
+            <p>{{ node.content }}</p>
+            <p><a href="{{ BASE_PATH }}{{ node.url }}">více</a></p>
+        {% endif %}
+    {% endif %}
+{% endfor %}
 
 <hr class="margin-bottom-50">
 

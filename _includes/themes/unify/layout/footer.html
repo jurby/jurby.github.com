@@ -1,73 +1,33 @@
 <div class="container">
     <div class="row">
         <div class="col-md-4 md-margin-bottom-40">
-            <!-- About -->
-            <div class="headline"><h2>About</h2></div>  
-            <p class="margin-bottom-25 md-margin-bottom-40">Unify is an incredibly beautiful responsive Bootstrap Template for corporate and creative professionals.</p>    
-
-            <!-- Monthly Newsletter -->
-            <div class="headline"><h2>Monthly Newsletter</h2></div> 
-            <p>Subscribe to our newsletter and stay up to date with the latest news and deals!</p>
-            <form class="footer-subsribe">
-                <div class="input-group">
-                    <input type="text" class="form-control" placeholder="Email Address">                            
-                    <span class="input-group-btn">
-                        <button class="btn-u" type="button">Subscribe</button>
-                    </span>
-                </div><!-- /input-group -->                    
-            </form>                         
+            <!-- Bank account -->
+            <div class="headline"><h2>Bankovní údaje</h2></div>
+            <address class="md-margin-bottom-40">
+            Číslo účtu: 19-316580267/0100<br>    
+            IBAN: CZ3801000000190316580267<br>
+            SWIFT Code: KOMBCZPPXXX
+            </address>                      
         </div><!--/col-md-4-->  
         
         <div class="col-md-4 md-margin-bottom-40">
-            <div class="posts">
-                <div class="headline"><h2>Bankovní údaje</h2></div>
-                <dl class="dl-horizontal">
-                    <dt>Číslo účtu:</dt>
-                    <dd>
-                        <p>19-316580267/0100</p> 
-                    </dd>
-                </dl>
-                <dl class="dl-horizontal">
-                    <dt>IBAN:</dt>
-                    <dd>
-                        <p>CZ3801000000190316580267</p> 
-                    </dd>
-                </dl>
-                <dl class="dl-horizontal">
-                    <dt>SWIFT Code</dt>
-                    <dd>
-                        <p>KOMBCZPPXXX</p> 
-                    </dd>
-                </dl>
-                <dl class="dl-horizontal">
-                    <dt>Variabilní symbol</dt>
-                    <dd>
-                        <p><i>datum začátku pobytu</i></p> 
-                    </dd>
-                </dl>
-                <dl class="dl-horizontal">
-                    <dt>Zpráva pro příjemce</dt>
-                    <dd>
-                        <p><i>Jméno a Příjmení rezervujícího</i></p> 
-                    </dd>
-                </dl>
-            </div>
-        </div><!--/col-md-4-->
-
-        <div class="col-md-4">
-            <!-- Monthly Newsletter -->
+            <!-- Contact address -->
             <div class="headline"><h2>Kontakt</h2></div> 
             <address class="md-margin-bottom-40">
                 Penzion Kristián<br>
                 Klatovská 334<br>
                 340 04 Železná Ruda<br>
                 Telefon: +420 724 210 805<br>
-                Email: <a href="mailto:{ site.author.email }}" class="">{{ site.author.email }}</a>
+                Email: <a href="mailto:{{ site.author.email }}" class="">{{ site.author.email }}</a>
             </address>
+        </div><!--/col-md-4-->
 
+        <div class="col-md-4">
             <!-- Stay Connected -->
             <div class="headline"><h2>Najdete nás na</h2></div> 
             <ul class="social-icons">
+                <li><a href="https://www.facebook.com/{{ site.author.facebook }}" data-original-title="Facebook" class="social_facebook"></a></li>
+                {% comment %}<!--
                 <li><a href="#" data-original-title="Feed" class="social_rss"></a></li>
                 <li><a href="#" data-original-title="Facebook" class="social_facebook"></a></li>
                 <li><a href="#" data-original-title="Twitter" class="social_twitter"></a></li>
@@ -75,6 +35,7 @@
                 <li><a href="#" data-original-title="Pinterest" class="social_pintrest"></a></li>
                 <li><a href="#" data-original-title="Linkedin" class="social_linkedin"></a></li>
                 <li><a href="#" data-original-title="Vimeo" class="social_vimeo"></a></li>
+                -->{% endcomment %}
             </ul>
         </div><!--/col-md-4-->
     </div><!--/row-->   

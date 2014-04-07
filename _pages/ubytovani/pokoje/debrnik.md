@@ -1,9 +1,9 @@
 ---
-layout: post
+layout: page
 title: Pokoj Debrník
-categories : [ubytovani, pokoj]
-tagline: "3 lůžka"
-tags : [pokoj, ubytování]
+tagline: "2 lůžkový pokoj se společnou koupelnou"
+menu: ubytovani
+permalink: /ubytovani/#pokoj-debrnik
 ---
 {% include JB/setup %}
 
