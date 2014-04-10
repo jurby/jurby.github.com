@@ -69,6 +69,30 @@ permalink: /
     </div>
     <!-- End Tag Box -->
 
+    <!-- Fotogalerie -->
+    <a id="photos"></a>
+    <div class="row margin-bottom-40">
+        <div class="col-lg-12">
+            <div class="headline"><h2>Fotogalerie</h2></div>
+            <ul class="bxslider recent-work">
+                {% for img in site.data.images.homepage %}
+                <li>
+                    <a href="#photos">
+                        <em class="overflow-hidden"><img src="{{ img.url }}" alt="" /></em>
+                        <span>
+                            <strong>{{ img.title }}</strong>
+                            <i>{{ img.description }}</i>
+                        </span>
+                    </a>
+                </li>
+                {% endfor %}
+            </ul>                    
+        </div>
+    </div><!--/row-->
+    <!-- End Recent Works -->
+
+{% comment %}<!--
+
     <!-- Our Clients -->
     <div id="clients-flexslider" class="flexslider home clients">
         <div class="headline"><h2>Our Clients</h2></div>    
@@ -178,5 +202,8 @@ permalink: /
         </ul>
     </div><!--/flexslider-->
     <!-- End Our Clients -->
+        
+-->{% endcomment %}
+
 </div><!--/container-->     
 <!-- End Content Part -->

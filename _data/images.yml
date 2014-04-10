@@ -1,0 +1,19 @@
+# Images
+
+homepage:
+    - title       : 'Penzion Kristián'
+      description : ''
+      url         : '/assets/img/kristian-small.jpg'
+
+    - title       : 'Terasa s pergolou'
+      description : ''
+      url         : '/assets/img/veranda-small.jpg'
+
+    - title       : 'Společenská místnost'
+      description : ''
+      url         : '/assets/img/hala-small.jpg'
+
+    - title       : 'Pokoj Špičák'
+      description : ''
+      url         : '/assets/img/pokoj-spicak-small.jpg'
+

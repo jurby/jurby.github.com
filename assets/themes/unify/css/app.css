@@ -1,3 +1,5 @@
+---
+---
 /*   
  * Template Name: Unify - Responsive Bootstrap Template
  * Description: Business, Corporate, Portfolio and Blog Theme.
@@ -701,7 +703,7 @@ a.read-more:hover {
 .slider-inner .da-slider {
    box-shadow: none;
    border-bottom: 2px solid #ddd;
-   background-image: url(/assets/img/slider/bg.jpg);
+   background-image: url({{ site.data.slider.backgroundImage.url }});
 }
 
 /*Revolution Slider
