@@ -31,77 +31,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "_config.yml",
-			"settings":
-			{
-				"buffer_size": 4447,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "archive.html",
-			"settings":
-			{
-				"buffer_size": 195,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "_includes/custom/calendar_list",
-			"settings":
-			{
-				"buffer_size": 415,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/jurby/Dropbox/Projects/taekwondo-strancice.github.com/_config.yml",
-			"settings":
-			{
-				"buffer_size": 4801,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "_includes/custom/pages_left_menu",
-			"settings":
-			{
-				"buffer_size": 4705,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "_includes/custom/pages_list",
-			"settings":
-			{
-				"buffer_size": 749,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "\n",
-			"settings":
-			{
-				"buffer_size": 1,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "_includes/custom/posts_collate",
-			"settings":
-			{
-				"buffer_size": 1568,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -126,7 +55,10 @@
 	},
 	"console":
 	{
-		"height": 125.0
+		"height": 125.0,
+		"history":
+		[
+		]
 	},
 	"distraction_free":
 	{
@@ -140,6 +72,12 @@
 	"file_history":
 	[
 		"/Users/jurby/Dropbox/Projects/dovolenasumava.github.io/_config.yml",
+		"/Users/jurby/Dropbox/Projects/dovolenasumava.github.io/_includes/custom/calendar_list",
+		"/Users/jurby/Dropbox/Projects/taekwondo-strancice.github.com/_config.yml",
+		"/Users/jurby/Dropbox/Projects/dovolenasumava.github.io/_includes/custom/pages_left_menu",
+		"/Users/jurby/Dropbox/Projects/dovolenasumava.github.io/_includes/custom/pages_list",
+		"/Users/jurby/Dropbox/Projects/dovolenasumava.github.io/_includes/custom/posts_collate",
+		"/Users/jurby/Dropbox/Projects/dovolenasumava.github.io/archive.html",
 		"/Users/jurby/Dropbox/Projects/dovolenasumava.github.io-tb3/Gemfile",
 		"/Users/jurby/Dropbox/Server/Install Ubuntu 11.10/ubuntu-11.10-install",
 		"/Users/jurby/test/dev/libs/Elo/Services/Ferratum/Loan.php",
@@ -213,7 +151,6 @@
 		"/Users/jurby/Dropbox/Projects/taekwondo-strancice.github.com/kontakt/index.md",
 		"/Users/jurby/Dropbox/Projects/taekwondo-strancice.github.com/treneri/jaroslav-urbanek/index.md",
 		"/Users/jurby/Dropbox/Projects/taekwondo-strancice.github.com/bazar/index.md",
-		"/Users/jurby/Dropbox/Projects/taekwondo-strancice.github.com/_config.yml",
 		"/Users/jurby/Dropbox/Projects/taekwondo-strancice.github.com/assets/themes/twitter/js/main.js",
 		"/Users/jurby/Dropbox/Projects/taekwondo-strancice.github.com/treneri/josef-kubat/index.md",
 		"/Users/jurby/Dropbox/Projects/taekwondo-strancice.github.com/treneri/petra-vychopen-blahova/index.md",
@@ -261,16 +198,11 @@
 		"/home/jurby/.gvfs/media na medea/video/Serials/Game of Thrones/S03/Game.of.Thrones.S03E02.Dark.Wings.Dark.Words.1080p.WEB-DL.DD5.1.H.264-NTb.srt",
 		"/home/jurby/.gvfs/media na medea/video/Serials/Game of Thrones/S03/Game Of Thrones S03-E01 (2012)NLtoppers.2.srt",
 		"/home/jurby/.gvfs/media na medea/video/Serials/Game of Thrones/S03/Game Of Thrones S03-E01 (2012)NLtoppers.4.srt",
-		"/home/jurby/.gvfs/media na medea/video/Serials/Game of Thrones/S03/Game Of Thrones S03-E01 (2012)NLtoppers.3.srt",
-		"/home/jurby/.gvfs/media na medea/video/Serials/Game of Thrones/S03/Game.of.Thrones.S03E01.Valar.Dohaeris.1080p.WEB-DL.DD5.1.H.264-NTb.srt",
-		"/home/jurby/.gvfs/media na medea/video/Serials/Game of Thrones/S03/Game.of.Thrones.S03E01.HDTV.x264-2HD.srt",
-		"/home/jurby/.gvfs/media na medea/video/Serials/Game of Thrones/S03/Game.of.Thrones.S03E01.REPACK.720p.HDTV.x264-EVOLVE.srt",
-		"/home/jurby/.gvfs/media na medea/video/Serials/Game of Thrones/S03/Game.of.Thrones.S03E01.720p.HDTV.x264-EVOLVE.srt",
-		"/home/jurby/Dropbox/Projects/taekwondo-strancice.github.com/_posts/novinky/2013-02-23-ohlednuti-za-mistrovstvim-cr-2013.md"
+		"/home/jurby/.gvfs/media na medea/video/Serials/Game of Thrones/S03/Game Of Thrones S03-E01 (2012)NLtoppers.3.srt"
 	],
 	"find":
 	{
-		"height": 51.0
+		"height": 23.0
 	},
 	"find_in_files":
 	{
@@ -360,260 +292,14 @@
 	"groups":
 	[
 		{
-			"selected": 8,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "_config.yml",
-					"settings":
-					{
-						"buffer_size": 4447,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4426,
-								4426
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/YAML/YAML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1136.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "archive.html",
-					"settings":
-					{
-						"buffer_size": 195,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								96,
-								96
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "_includes/custom/calendar_list",
-					"settings":
-					{
-						"buffer_size": 415,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								415,
-								415
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "/Users/jurby/Dropbox/Projects/taekwondo-strancice.github.com/_config.yml",
-					"settings":
-					{
-						"buffer_size": 4801,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4432,
-								4314
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/YAML/YAML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1316.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "_includes/custom/pages_left_menu",
-					"settings":
-					{
-						"buffer_size": 4705,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4705,
-								4705
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 565.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "_includes/custom/pages_list",
-					"settings":
-					{
-						"buffer_size": 749,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								749,
-								749
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"settings":
-					{
-						"buffer_size": 1,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1,
-								1
-							]
-						],
-						"settings":
-						{
-							"auto_name": "",
-							"default_dir": "/Users/jurby/Dropbox/Projects/dovolenasumava.github.io-tb3/_includes/custom",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "_includes/custom/posts_collate",
-					"settings":
-					{
-						"buffer_size": 1568,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1546,
-								1559
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"default_dir": "/Users/jurby/Dropbox/Projects/dovolenasumava.github.io-tb3/_includes/custom",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 0.0
+		"height": 23.0
 	},
 	"input":
 	{
@@ -642,9 +328,14 @@
 		]
 	},
 	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "dovolenasumava.sublime-project",
 	"replace":
 	{
-		"height": 64.0
+		"height": 42.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -679,10 +370,24 @@
 		],
 		"width": 380.0
 	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
 	"show_minimap": true,
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
 	"side_bar_width": 291.0,
-	"status_bar_visible": true
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
 }

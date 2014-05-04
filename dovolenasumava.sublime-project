@@ -2,10 +2,8 @@
 	"folders":
 	[
 		{
-			"path": "/Users/jurby/Dropbox/Projects/dovolenasumava.github.io-tb3"
-		},
-		{
-			"path": "/Users/jurby/Dropbox/Projects/taekwondo-strancice.github.com"
+			"follow_symlinks": true,
+			"path": "."
 		}
 	]
 }
