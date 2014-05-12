@@ -1,8 +1,9 @@
 ---
 layout: page
 title: Pokoj Debrník
-tagline: "2 lůžkový pokoj se společnou koupelnou"
+tagline: "dvoulůžkový pokoj se společnou koupelnou"
 menu: ubytovani
+weight: 16
 permalink: /ubytovani/#pokoj-debrnik
 ---
 {% include JB/setup %}
@@ -11,8 +12,6 @@ This sample demonstrates displaying a list or cells feed for a particular worksh
 
 <!-- more -->
 
-This allows you to query a spreadsheet's public list or cell feed and get the resulting entries returned as JSON objects. To use the new JSON feed, create a script element whose src value is.
-
 ## Popis pokoje 
 
-popis...
+Pokoj Debrník je nejmenší pokoj v penzionu. Používá společnou koupelnu a WC na chodbě a je vybaven dvojpostelí. Je vhodný pro ubytování studentského páru neboť má příznivou cenu.

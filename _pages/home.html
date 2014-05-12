@@ -91,9 +91,7 @@ permalink: /
     </div><!--/row-->
     <!-- End Recent Works -->
 
-{% comment %}<!--
--->{% endcomment %}
-    <!-- Our Clients -->
+    <!-- Our partners -->
     <div id="clients-flexslider" class="flexslider home clients">
         <div class="headline"><h2>Naši partneři</h2></div>    
         <ul class="slides">
@@ -105,100 +103,18 @@ permalink: /
             </li>
             <li>
                 <a href="#">
-                    <img src="{{ ASSET_PATH }}/img/clients/igneus_grey.png" alt="" /> 
-                    <img src="{{ ASSET_PATH }}/img/clients/igneus.png" class="color-img" alt="" />
-                </a>
-            </li>
-            <li>
-                <a href="#">
                     <img src="{{ ASSET_PATH }}/img/clients/vadafone_grey.png" alt="" /> 
                     <img src="{{ ASSET_PATH }}/img/clients/vadafone.png" class="color-img" alt="" />
                 </a>
             </li>
+            {% for partner in site.data.partners %}
             <li>
-                <a href="#">
-                    <img src="{{ ASSET_PATH }}/img/clients/walmart_grey.png" alt="" /> 
-                    <img src="{{ ASSET_PATH }}/img/clients/walmart.png" class="color-img" alt="" />
+                <a href="{{ partner.link }}" title="{{ partner.title }}" target="_blank">
+                    <img src="{{ partner.img_grey }}" alt="{{ partner.title }}" />
+                    <img src="{{ partner.img_color }}" alt="{{ partner.title }}" class="color-img" />
                 </a>
             </li>
-            <li>
-                <a href="#">
-                    <img src="{{ ASSET_PATH }}/img/clients/shell_grey.png" alt="" /> 
-                    <img src="{{ ASSET_PATH }}/img/clients/shell.png" class="color-img" alt="" />
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <img src="{{ ASSET_PATH }}/img/clients/natural_grey.png" alt="" /> 
-                    <img src="{{ ASSET_PATH }}/img/clients/natural.png" class="color-img" alt="" />
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <img src="{{ ASSET_PATH }}/img/clients/aztec_grey.png" alt="" /> 
-                    <img src="{{ ASSET_PATH }}/img/clients/aztec.png" class="color-img" alt="" />
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <img src="{{ ASSET_PATH }}/img/clients/gamescast_grey.png" alt="" /> 
-                    <img src="{{ ASSET_PATH }}/img/clients/gamescast.png" class="color-img" alt="" />
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <img src="{{ ASSET_PATH }}/img/clients/cisco_grey.png" alt="" /> 
-                    <img src="{{ ASSET_PATH }}/img/clients/cisco.png" class="color-img" alt="" />
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <img src="{{ ASSET_PATH }}/img/clients/everyday_grey.png" alt="" /> 
-                    <img src="{{ ASSET_PATH }}/img/clients/everyday.png" class="color-img" alt="" />
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <img src="{{ ASSET_PATH }}/img/clients/cocacola_grey.png" alt="" /> 
-                    <img src="{{ ASSET_PATH }}/img/clients/cocacola.png" class="color-img" alt="" />
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <img src="{{ ASSET_PATH }}/img/clients/spinworkx_grey.png" alt="" /> 
-                    <img src="{{ ASSET_PATH }}/img/clients/spinworkx.png" class="color-img" alt="" />
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <img src="{{ ASSET_PATH }}/img/clients/shell_grey.png" alt="" /> 
-                    <img src="{{ ASSET_PATH }}/img/clients/shell.png" class="color-img" alt="" />
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <img src="{{ ASSET_PATH }}/img/clients/natural_grey.png" alt="" /> 
-                    <img src="{{ ASSET_PATH }}/img/clients/natural.png" class="color-img" alt="" />
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <img src="{{ ASSET_PATH }}/img/clients/gamescast_grey.png" alt="" /> 
-                    <img src="{{ ASSET_PATH }}/img/clients/gamescast.png" class="color-img" alt="" />
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <img src="{{ ASSET_PATH }}/img/clients/everyday_grey.png" alt="" /> 
-                    <img src="{{ ASSET_PATH }}/img/clients/everyday.png" class="color-img" alt="" />
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <img src="{{ ASSET_PATH }}/img/clients/spinworkx_grey.png" alt="" /> 
-                    <img src="{{ ASSET_PATH }}/img/clients/spinworkx.png" class="color-img" alt="" />
-                </a>
-            </li>
+            {% endfor %}
         </ul>
     </div><!--/flexslider-->
     <!-- End Our Clients -->

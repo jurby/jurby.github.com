@@ -7,17 +7,17 @@ weight: 4
 permalink: /tipy-v-okoli/
 category_name: tipy-v-okoli
 tips_styles:
-  - name : Výlety
+  - name : Sport
     class: green
-  - name : Bazény
+  - name : Wellness
     class: blue
-  - name : grey
+  - name : Stravování
     class: grey
-  - name : red
+  - name : Akce
     class: red
-  - name : sea
+  - name : 'Pro děti'
     class: sea
-  - name : orange
+  - name : Šumava
     class: orange
   - name : info
     class: info
@@ -46,7 +46,7 @@ tips_styles:
             {% assign style = node.type | downcase %}
             {% capture panel_style %}{% for s in page.tips_styles %}{% if s.name == node.type %}{{ s.class }}{% endif %}{% endfor %}{% endcapture %}
         <div class="col-md-6 mix category_{{ style }}">
-            <!--Grey Panels-->            
+            <!--Panel-->            
             <div class="panel panel-{{ panel_style }}">
                 <div class="panel-heading">
                     <h3 class="panel-title">{{ node.type }}</h3>
@@ -55,15 +55,16 @@ tips_styles:
                     <h4>{{ node.title }}</h4>
                     <p>
                     {% if node.content contains site.excerpt_separator %}
-                        {{ node.content | split:site.excerpt_separator | first }}
+                        {{ node.content | split:site.excerpt_separator | first | markdownify }}
                     {% else %}
-                        <!-- Case for when no excerpt is defined -->
-                        {{ node.content | strip_html | truncatewords: 20 }}
+                        {{ node.content | markdownify }}
                     {% endif %}
+                    {% comment %}<!--
                     <a href="{{ BASE_PATH }}{{ node.url }}">více</a></p>
+                    -->{% endcomment %}
                 </div>
             </div>
-            <!--End Grey Panels-->            
+            <!--End Panel-->            
         </div>
         {% endif %}
     {% endfor %} 
