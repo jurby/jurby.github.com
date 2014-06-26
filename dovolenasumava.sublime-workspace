@@ -31,6 +31,14 @@
 	},
 	"buffers":
 	[
+		{
+			"contents": "\n",
+			"settings":
+			{
+				"buffer_size": 1,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -55,10 +63,7 @@
 	},
 	"console":
 	{
-		"height": 125.0,
-		"history":
-		[
-		]
+		"height": 125.0
 	},
 	"distraction_free":
 	{
@@ -72,12 +77,12 @@
 	"file_history":
 	[
 		"/Users/jurby/Dropbox/Projects/dovolenasumava.github.io/_config.yml",
-		"/Users/jurby/Dropbox/Projects/dovolenasumava.github.io/_includes/custom/calendar_list",
-		"/Users/jurby/Dropbox/Projects/taekwondo-strancice.github.com/_config.yml",
-		"/Users/jurby/Dropbox/Projects/dovolenasumava.github.io/_includes/custom/pages_left_menu",
 		"/Users/jurby/Dropbox/Projects/dovolenasumava.github.io/_includes/custom/pages_list",
-		"/Users/jurby/Dropbox/Projects/dovolenasumava.github.io/_includes/custom/posts_collate",
+		"/Users/jurby/Dropbox/Projects/dovolenasumava.github.io/_includes/custom/pages_left_menu",
+		"/Users/jurby/Dropbox/Projects/taekwondo-strancice.github.com/_config.yml",
 		"/Users/jurby/Dropbox/Projects/dovolenasumava.github.io/archive.html",
+		"/Users/jurby/Dropbox/Projects/dovolenasumava.github.io/_includes/custom/calendar_list",
+		"/Users/jurby/Dropbox/Projects/dovolenasumava.github.io/_includes/custom/posts_collate",
 		"/Users/jurby/Dropbox/Projects/dovolenasumava.github.io-tb3/Gemfile",
 		"/Users/jurby/Dropbox/Server/Install Ubuntu 11.10/ubuntu-11.10-install",
 		"/Users/jurby/test/dev/libs/Elo/Services/Ferratum/Loan.php",
@@ -202,7 +207,7 @@
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 51.0
 	},
 	"find_in_files":
 	{
@@ -292,14 +297,42 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"settings":
+					{
+						"buffer_size": 1,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1,
+								1
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"default_dir": "/Users/jurby/Dropbox/Projects/dovolenasumava.github.io-tb3/_includes/custom",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 23.0
+		"height": 0.0
 	},
 	"input":
 	{
@@ -328,14 +361,9 @@
 		]
 	},
 	"menu_visible": true,
-	"output.find_results":
-	{
-		"height": 0.0
-	},
-	"project": "dovolenasumava.sublime-project",
 	"replace":
 	{
-		"height": 42.0
+		"height": 64.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -370,24 +398,10 @@
 		],
 		"width": 380.0
 	},
-	"select_symbol":
-	{
-		"height": 0.0,
-		"selected_items":
-		[
-		],
-		"width": 0.0
-	},
-	"settings":
-	{
-	},
 	"show_minimap": true,
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
 	"side_bar_width": 291.0,
-	"status_bar_visible": true,
-	"template_settings":
-	{
-	}
+	"status_bar_visible": true
 }
