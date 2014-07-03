@@ -1,5 +1,9 @@
 # Images
 
+logo:
+    title       : 'Penzion Kristián'
+    url         : '/assets/img/kristian-logo.png'
+
 homepage:
     - title       : 'Penzion Kristián'
       description : ''

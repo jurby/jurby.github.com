@@ -3,12 +3,17 @@ layout: page
 title: Pokoj Debrník
 tagline: "dvoulůžkový pokoj se společnou koupelnou"
 menu: ubytovani
-weight: 16
+weight: 6
 permalink: /ubytovani/#pokoj-debrnik
+prices: Mimosezóna / Sezóna (280 / 320 CZK)
+equipment:
+  - WC
+  - WiFi
+  - koupelna
+  - kuřácký
 ---
-{% include JB/setup %}
 
-This sample demonstrates displaying a list or cells feed for a particular worksheet in a spreadsheet using the JSON output format provided by the<b> Spreadsheets</b> Data API.
+Pokoj Debrník je nejmenší pokoj v penzionu. Používá společnou koupelnu a WC na chodbě a je vybaven dvojpostelí. Je vhodný pro ubytování studentského páru neboť má příznivou cenu.
 
 <!-- more -->
 
