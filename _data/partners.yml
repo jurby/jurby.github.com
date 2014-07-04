@@ -20,3 +20,22 @@
   img_grey    : '/assets/img/partners/echalupy-cz_grey.jpg'
   img_color   : '/assets/img/partners/echalupy-cz.jpg'
 
+- link        : 'http://www.kudyznudy.cz/?utm_source=kzn&utm_medium=partneri_kzn&utm_campaign=banner'
+  title       : 'Kudyznudy.cz - tipy na výlet'
+  img_grey    : '/assets/img/partners/kudyznudy-cz_grey.png'
+  img_color   : '/assets/img/partners/kudyznudy-cz.jpg'
+
+- link        : 'http://www.ceskemsnami.cz/'
+  title       : 'Českem s námi'
+  img_grey    : '/assets/img/partners/ceskemsnami-cz_grey.jpg'
+  img_color   : '/assets/img/partners/ceskemsnami-cz.jpg'
+
+- link        : 'http://www.ehotel.cz/'
+  title       : 'eHotel.cz'
+  img_grey    : '/assets/img/partners/ehotel-cz_grey.png'
+  img_color   : '/assets/img/partners/ehotel-cz.png'
+
+- link        : 'http://www.echalupy.cz/'
+  title       : 'eChalupy.cz'
+  img_grey    : '/assets/img/partners/echalupy-cz_grey.jpg'
+  img_color   : '/assets/img/partners/echalupy-cz.jpg'
