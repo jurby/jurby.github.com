@@ -2,4 +2,8 @@
 layout: default
 ---
 {% include JB/setup %}
-{% include themes/bootstrap/post.html %}
+{% if page.group == 'calendar' %}
+	{% include themes/unify/post-calendar.html %}
+{% else %}
+	{% include themes/unify/post.html %}
+{% endif %}

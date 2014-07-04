@@ -1,0 +1,82 @@
+# Images
+
+logo:
+    title       : 'Penzion Kristián'
+    url         : '/assets/img/kristian-logo.png'
+
+homepage:
+    - title       : 'Penzion Kristián'
+      description : ''
+      url         : '/assets/img/kristian-small.jpg'
+
+    - title       : 'Terasa s pergolou'
+      description : ''
+      url         : '/assets/img/veranda-small.jpg'
+
+    - title       : 'Společenská místnost'
+      description : ''
+      url         : '/assets/img/hala-small.jpg'
+
+    - title       : 'Pokoj Špičák'
+      description : ''
+      url         : '/assets/img/hala-small.jpg'
+
+pictograms:
+    tv:
+        title     : 'TV'
+        urlSmall  : '/assets/img/pictograms/TV-maly.png'
+        urlBig    : '/assets/img/pictograms/'
+    wc:
+        title     : 'WC'
+        urlSmall  : '/assets/img/pictograms/WC-maly.png'
+        urlBig    : '/assets/img/pictograms/WC-maly.png'
+    wifi:
+        title     : 'WiFi'
+        urlSmall  : '/assets/img/pictograms/WiFi-maly.png'
+        urlBig    : '/assets/img/pictograms/'
+    koupelna:
+        title     : 'koupelna'
+        urlSmall  : '/assets/img/pictograms/Koupelna-maly.png'
+        urlBig    : '/assets/img/pictograms/'
+    kuracky:
+        title     : 'kuřácký'
+        urlSmall  : '/assets/img/pictograms/Cigaro-maly.png'
+        urlBig    : '/assets/img/pictograms/'
+    houby:
+        title     : 'houby'
+        urlSmall  : '/assets/img/pictograms/Hrib-maly.png'
+        urlBig    : '/assets/img/pictograms/'
+    bezky:
+        title     : 'běžky'
+        urlSmall  : '/assets/img/pictograms/Bezky-maly.png'
+        url       : '/assets/img/pictograms/Bezky.png'
+        urlBig    : '/assets/img/pictograms/Bezky-velky.png'
+    kolo:
+        title     : 'kolo'
+        urlSmall  : '/assets/img/pictograms/Kolo-maly.png'
+        urlBig    : '/assets/img/pictograms/'
+    krb:
+        title     : 'krb'
+        urlSmall  : '/assets/img/pictograms/Krb-maly.png'
+        urlBig    : '/assets/img/pictograms/'
+    kuchyne:
+        title     : 'kuchyně'
+        urlSmall  : '/assets/img/pictograms/Kuchyne-maly.png'
+        urlBig    : '/assets/img/pictograms/'
+    lyze:
+        title     : 'lyže'
+        urlSmall  : '/assets/img/pictograms/Lyze-maly.png'
+        urlBig    : '/assets/img/pictograms/'
+    parkoviste:
+        title     : 'parkoviště'
+        urlSmall  : '/assets/img/pictograms/Parking-maly.png'
+        urlBig    : '/assets/img/pictograms/'
+    postel:
+        title     : 'lůžko'
+        urlSmall  : '/assets/img/pictograms/Postel-maly.png'
+        urlBig    : '/assets/img/pictograms/'
+    turista:
+        title     : 'výlet'
+        urlSmall  : '/assets/img/pictograms/Turista-maly.png'
+        urlBig    : '/assets/img/pictograms/'
+

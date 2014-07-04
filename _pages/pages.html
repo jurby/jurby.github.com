@@ -1,0 +1,15 @@
+---
+layout: page
+title: Obsah 
+header: Obsah
+#group: navigation
+weight: 7
+permalink: /obsah/
+---
+{% include JB/setup %}
+
+<h2>Obsah</h2>
+<ul>
+{% assign pages_list = site.pages %}
+{% include JB/pages_list %}
+</ul>

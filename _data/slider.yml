@@ -1,0 +1,14 @@
+# Slides
+
+backgroundImage :
+    url : '/assets/img/slider/bg-v3.jpg'
+
+slides :
+
+    - title       : '<i>DOVOLENÁ NA ŠUMAVĚ</i> <br /> <i>PO CELÝ ROK</i>'
+      description : '<i>Přijeďte k nám s celou rodinou</i> <br /> <i>a přáteli</i>'
+      media       : '<img src="/assets/img/pictograms/Bezky.png" alt="" />'
+
+    - title       : '<i>DOVOLENÁ NA ŠUMAVĚ</i> <br /> <i>PO CELÝ ROK</i> <br /> <i>slide 2</i>'
+      description : '<i>Přijeďte k nám s celou rodinou</i> <br /> <i>a přáteli</i>'
+      media       : '<img src="/assets/img/pictograms/Bezky.png" alt="" />'

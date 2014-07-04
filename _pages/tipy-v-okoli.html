@@ -1,0 +1,73 @@
+---
+layout: page
+title: Tipy v okolí
+tagline: 
+group: navigation
+weight: 4
+permalink: /tipy-v-okoli/
+category_name: tipy-v-okoli
+tips_styles:
+  - name : Sport
+    class: green
+  - name : Wellness
+    class: blue
+  - name : Stravování
+    class: grey
+  - name : Akce
+    class: red
+  - name : 'Pro děti'
+    class: sea
+  - name : Šumava
+    class: orange
+  - name : info
+    class: info
+  - name : success
+    class: success
+  - name : warning
+    class: warning
+  - name : danger
+    class: danger
+---
+{% include JB/setup %}
+
+{% capture tipTypes %}{% for node in site.categories[page.category_name] %}{{ node.type }}{% unless forloop.last %}|{% endunless %}{% endfor %}{% endcapture %}
+{% assign tipTypes = tipTypes | split:'|' %}
+
+<div class="row servive-block margin-bottom-10 sorting-block">
+    <ul class="sorting-nav sorting-nav-v1 text-center">
+        <li class="filter" data-filter="all">Vše</li>
+        {% for t in tipTypes | sort %}
+            <li class="filter" data-filter="category_{{ t | downcase }}">{{ t }}</li>
+        {% endfor %}
+    </ul>
+    <div class="row sorting-grid">
+    {% for node in site.categories['tipy-v-okoli'] %}
+        {% if node.title != null %}
+            {% assign style = node.type | downcase %}
+            {% capture panel_style %}{% for s in page.tips_styles %}{% if s.name == node.type %}{{ s.class }}{% endif %}{% endfor %}{% endcapture %}
+        <div class="col-md-6 mix category_{{ style }}">
+            <!--Panel-->            
+            <div class="panel panel-{{ panel_style }}">
+                <div class="panel-heading">
+                    <h3 class="panel-title">{{ node.type }}</h3>
+                </div>
+                <div class="panel-body sorting-cover">
+                    <h4>{{ node.title }}</h4>
+                    <p>
+                    {% if node.content contains site.excerpt_separator %}
+                        {{ node.content | split:site.excerpt_separator | first | markdownify }}
+                    {% else %}
+                        {{ node.content | markdownify }}
+                    {% endif %}
+                    {% comment %}<!--
+                    <a href="{{ BASE_PATH }}{{ node.url }}">více</a></p>
+                    -->{% endcomment %}
+                </div>
+            </div>
+            <!--End Panel-->            
+        </div>
+        {% endif %}
+    {% endfor %} 
+    </div>
+    <div class="clearfix"></div>
+</div>

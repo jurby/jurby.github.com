@@ -1,0 +1,34 @@
+<div class="navbar navbar-default" role="navigation">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+                <span class="sr-only">Menu</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="{{ HOME_PATH }}">
+                <img id="logo-header" src="{{ BASE_PATH }}{{ site.data.images.logo.url }}" alt="{{ site.data.images.logo.title }}">
+                <span class="hidden">Pension&nbsp;Kristián</span>
+            </a>
+        </div>
+
+        <div class="collapse navbar-collapse navbar-responsive-collapse">
+            <ul class="nav navbar-nav navbar-right">
+                {% assign pages_list = site.pages %}
+                {% assign group = 'navigation' %}
+                {% include JB/pages_list %}
+                <li class="hidden-sm"><a class="search"><i class="icon-search search-btn"></i></a></li>
+            </ul>
+            <div class="search-open">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Vyhledat...">
+                    <span class="input-group-btn">
+                        <button class="btn-u" type="button">Hledat</button>
+                    </span>
+                </div><!-- /input-group -->
+            </div>                
+        </div><!-- /navbar-collapse -->
+    </div>    
+</div> 
