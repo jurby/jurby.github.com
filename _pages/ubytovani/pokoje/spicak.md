@@ -10,12 +10,16 @@ equipment:
   - wifi
   - koupelna
   - wc
-  - kuracky
+  - nekuracky
 photos:
-- url         : ''
-  description : ''
-- url         : ''
-  description : ''
+  - url         : 'Spicak-1.jpg'
+    description : ''
+  - url         : 'Spicak-2.jpg'
+    description : ''
+  - url         : 'Spicak-3.jpg'
+    description : ''
+  - url         : 'Spicak-4.jpg'
+    description : ''
 ---
 
 Pokoj Špičák je největším pokojem v penzionu. Okno je orientované na JV stranu, je "zastrčený", takže nabízí soukromí a koupelna je vybavena prostornou vanou. Sedačku je možné rozložit na přistýlku.

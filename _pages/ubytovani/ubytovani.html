@@ -30,11 +30,13 @@ menu :
             <div class="headline"><h2>Společné prostory</h2></div>
           {% endif %}
           {% if node.title != null %}
-          <div class="row portfolio-item margin-bottom-50"> 
+          <div class="row portfolio-item margin-bottom-20"> 
                 <!-- Content Info -->        
-                <div class="col-md-6 md-margin-bottom-40">
+                <div class="col-md-6">
                     <a id="{{ node.url | split:"#" | last | downcase }}" class="shifted-anchor">&nbsp;</a>
+                    {% if isRoom == true %}
                     <h2>{{ node.title }}</h2>
+                    {% endif %}
                     <p>
                     {% if node.content contains site.excerpt_separator %}
                         {{ node.content | split:site.excerpt_separator | first | markdownify }}
@@ -49,19 +51,13 @@ menu :
                             {% for eq in node.equipment %}
                                 {% if site.data.images.pictograms contains eq %}
                                     {% assign pictogram = site.data.images.pictograms[eq] %}
-                                <li class="col-xs-3"><img src="{{ BASE_PATH }}{{ pictogram.urlSmall }}" alt="{{ pictogram.title }}" title="{{ pictogram.title }}" /></li>
+                                <li class="col-xs-2"><img src="{{ BASE_PATH }}{{ pictogram.urlSmall }}" alt="{{ pictogram.title }}" title="{{ pictogram.title }}" /></li>
                                 {% endif %} 
                             {% endfor %}
                             </ul>
                             {% endif %}                   
                         </div>
                     </div>
-                    {% if isRoom == true %}
-                    <p>
-                      <a class="btn-u btn-u-large" href="{{ BASE_PATH }}/rezervace#{{ node.url | split:"#" | last | downcase }}">Rezervovat</a>
-                      <span class="pull-right">{{ node.prices }}</span>
-                    </p>
-                    {% endif %}
                 </div>
                 <!-- End Content Info -->        
 
@@ -99,6 +95,16 @@ menu :
                 </div>
                 <!-- End Carousel -->
             </div><!--/row-->
+            {% if isRoom == true %}
+            <div class="row margin-bottom-30">
+                <div class="col-xs-2">
+                    <a class="btn-u btn-u-large" href="{{ BASE_PATH }}/rezervace#{{ node.url | split:"#" | last | downcase }}">Rezervovat</a>
+                </div>
+                <div class="col-xs-10">
+                    <span style="line-height:30px;font-size:14px;">{{ node.prices }}</span>
+                </div>
+            </div>
+            {% endif %}
           {% endif %}
       {% endif %}
   {% endfor %}

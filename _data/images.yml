@@ -25,27 +25,27 @@ pictograms:
     tv:
         title     : 'TV'
         urlSmall  : '/assets/img/pictograms/TV-maly.png'
-        urlBig    : '/assets/img/pictograms/'
+        urlBig    : '/assets/img/pictograms/TV-velky.png'
     wc:
         title     : 'WC'
         urlSmall  : '/assets/img/pictograms/WC-maly.png'
-        urlBig    : '/assets/img/pictograms/WC-maly.png'
+        urlBig    : '/assets/img/pictograms/WC-velky.png'
     wifi:
         title     : 'WiFi'
         urlSmall  : '/assets/img/pictograms/WiFi-maly.png'
-        urlBig    : '/assets/img/pictograms/'
+        urlBig    : '/assets/img/pictograms/WiFi-velky.png'
     koupelna:
         title     : 'koupelna'
         urlSmall  : '/assets/img/pictograms/Koupelna-maly.png'
-        urlBig    : '/assets/img/pictograms/'
-    kuracky:
-        title     : 'kuřácký'
+        urlBig    : '/assets/img/pictograms/Koupelna-velky.png'
+    nekuracky:
+        title     : 'nekuřácký'
         urlSmall  : '/assets/img/pictograms/Cigaro-maly.png'
-        urlBig    : '/assets/img/pictograms/'
+        urlBig    : '/assets/img/pictograms/Cigaro-velky.png'
     houby:
         title     : 'houby'
         urlSmall  : '/assets/img/pictograms/Hrib-maly.png'
-        urlBig    : '/assets/img/pictograms/'
+        urlBig    : '/assets/img/pictograms/Hrib-velky.png'
     bezky:
         title     : 'běžky'
         urlSmall  : '/assets/img/pictograms/Bezky-maly.png'
@@ -54,29 +54,29 @@ pictograms:
     kolo:
         title     : 'kolo'
         urlSmall  : '/assets/img/pictograms/Kolo-maly.png'
-        urlBig    : '/assets/img/pictograms/'
+        urlBig    : '/assets/img/pictograms/Kolo-velky.png'
     krb:
         title     : 'krb'
         urlSmall  : '/assets/img/pictograms/Krb-maly.png'
-        urlBig    : '/assets/img/pictograms/'
+        urlBig    : '/assets/img/pictograms/Krb-velky.png'
     kuchyne:
         title     : 'kuchyně'
         urlSmall  : '/assets/img/pictograms/Kuchyne-maly.png'
-        urlBig    : '/assets/img/pictograms/'
+        urlBig    : '/assets/img/pictograms/Kuchyne-velky.png'
     lyze:
         title     : 'lyže'
         urlSmall  : '/assets/img/pictograms/Lyze-maly.png'
-        urlBig    : '/assets/img/pictograms/'
+        urlBig    : '/assets/img/pictograms/Lyze-velky.png'
     parkoviste:
         title     : 'parkoviště'
         urlSmall  : '/assets/img/pictograms/Parking-maly.png'
-        urlBig    : '/assets/img/pictograms/'
+        urlBig    : '/assets/img/pictograms/Parking-velky.png'
     postel:
         title     : 'lůžko'
         urlSmall  : '/assets/img/pictograms/Postel-maly.png'
-        urlBig    : '/assets/img/pictograms/'
+        urlBig    : '/assets/img/pictograms/Postel-velky.png'
     turista:
         title     : 'výlet'
         urlSmall  : '/assets/img/pictograms/Turista-maly.png'
-        urlBig    : '/assets/img/pictograms/'
+        urlBig    : '/assets/img/pictograms/Turista-velky.png'
 

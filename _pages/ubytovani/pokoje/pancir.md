@@ -10,7 +10,16 @@ equipment:
   - wifi
   - koupelna
   - wc
-  - kuracky
+  - nekuracky
+photos:
+  - url         : 'Pancir-1.jpg'
+    description : ''
+  - url         : 'Pancir-2.jpg'
+    description : ''
+  - url         : 'Pancir-3.jpg'
+    description : ''
+  - url         : 'Pancir-4.jpg'
+    description : ''
 ---
 
 Pokoj Pancíř má vlastní sociální zařízení se sprchou, umyvadlem a WC. Je vhodný pro pobyt malé rodiny případně páru. Je orientovaný na JZ stranu.
