@@ -8,7 +8,16 @@ permalink: /ubytovani/#pokoj-habr
 prices: Mimosezóna / Sezóna (280 / 320 CZK)
 equipment:
   - wifi
-  - kuracky
+  - nekuracky
+photos:
+  - url         : 'Habr-1.jpg'
+    description : ''
+  - url         : 'Habr-2.jpg'
+    description : ''
+  - url         : 'Habr-3.jpg'
+    description : ''
+  - url         : 'Habr-4.jpg'
+    description : ''
 ---
 
 Pokoj Habr je vhodný pro ubytování dětí při hromadných výpravách. Používá společnou koupelnu a WC na chodbě. Je prostorný, orientovaný na JV stranu a pojme až 6 hostů.
