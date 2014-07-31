@@ -5,7 +5,7 @@ tagline: "třílůžkový pokoj s vlastní koupelnou"
 menu: ubytovani
 weight: 3
 permalink: /ubytovani/#pokoj-pancir
-prices: Mimosezóna / Sezóna (280 / 320 CZK)
+prices: 280 / 320 Kč za lůžko a noc
 equipment:
   - wifi
   - koupelna

@@ -5,7 +5,7 @@ tagline: "dvoulůžkový pokoj s vlastní koupelnou"
 menu: ubytovani
 weight: 4
 permalink: /ubytovani/#pokoj-prenet
-prices: Mimosezóna / Sezóna (280 / 320 CZK)
+prices: 280 / 320 Kč za lůžko a noc
 equipment:
   - wifi
   - koupelna
