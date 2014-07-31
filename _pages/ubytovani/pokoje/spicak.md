@@ -5,7 +5,7 @@ tagline: "čtyřlůžkový pokoj s vlastní koupelnou"
 menu: ubytovani
 weight: 1
 permalink: /ubytovani/#pokoj-spicak
-prices: Mimosezóna / Sezóna (280 / 320 CZK)
+prices: 280 / 320 Kč za lůžko a noc
 equipment:
   - wifi
   - koupelna

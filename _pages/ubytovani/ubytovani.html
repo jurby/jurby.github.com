@@ -101,7 +101,8 @@ menu :
                     <a class="btn-u btn-u-large" href="{{ BASE_PATH }}/rezervace#{{ node.url | split:"#" | last | downcase }}">Rezervovat</a>
                 </div>
                 <div class="col-xs-10">
-                    <span style="line-height:30px;font-size:14px;">{{ node.prices }}</span>
+                    <span style="line-height:30px;font-size:14px;" data-toggle="popover" title="" data-content="Uváděné ceny jsou platné pro mimosezónu [16.3. – 30.11.] / zimní sezónu [1.12. – 15.3.]. Děti do 10 let a domácí zvířata 50%. Děti do 3 let bez nároku na lůžko zdarma.
+V ceně není zahrnut místní ubytovací poplatek ve výši 17 Kč lůžko / noc. U pobytů na 1 noc účtována přirážka 50 Kč /lůžko." data-original-title="Ceny">{{ node.prices }} <i class="icon-info-sign" style="font-size:18px;"></i></span>
                 </div>
             </div>
             {% endif %}

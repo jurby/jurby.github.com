@@ -5,7 +5,7 @@ tagline: "čtyřlůžkový pokoj se společnou koupelnou"
 menu: ubytovani
 weight: 5
 permalink: /ubytovani/#pokoj-habr
-prices: Mimosezóna / Sezóna (280 / 320 CZK)
+prices: 280 / 320 Kč za lůžko a noc
 equipment:
   - wifi
   - nekuracky

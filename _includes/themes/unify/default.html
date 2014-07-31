@@ -76,13 +76,10 @@
     <script type="text/javascript" src="{{ ASSET_PATH }}/plugins/parallax-slider/js/jquery.cslider.js"></script>
     <script type="text/javascript" src="{{ ASSET_PATH }}/plugins/bxslider/jquery.bxslider.js"></script>
     <script type="text/javascript" src="{{ ASSET_PATH }}/plugins/jquery.mixitup.min.js"></script>
-    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
-    <script type="text/javascript" src="{{ ASSET_PATH }}/plugins/gmap/gmap.js"></script>
     <!-- JS Page Level -->           
     <script type="text/javascript" src="{{ ASSET_PATH }}/js/app.js"></script>
     <script type="text/javascript" src="{{ ASSET_PATH }}/js/pages/index.js"></script>
     <script type="text/javascript" src="{{ ASSET_PATH }}/js/pages/portfolio.js"></script>
-    <script type="text/javascript" src="{{ ASSET_PATH }}/js/pages/contact.js"></script>
     
     <script type="text/javascript">
         (function($, undefined){
@@ -92,7 +89,14 @@
                 App.initBxSlider();
                 Index.initParallaxSlider();
                 Portfolio.init();
-                Contact.initMap();
+
+                $('[data-toggle="popover"]').popover({
+                    html: true,
+                    placement: 'right',
+                    trigger: 'hover',
+                    delay: { show: 150, hide: 100 },
+
+                })
             });
         })(jQuery);
     </script>

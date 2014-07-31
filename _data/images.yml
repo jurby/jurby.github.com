@@ -5,21 +5,33 @@ logo:
     url         : '/assets/img/kristian-logo.png'
 
 homepage:
-    - title       : 'Penzion Kristián'
+    - title       : 'Foto 1'
       description : ''
-      url         : '/assets/img/kristian-small.jpg'
+      url         : '/assets/img/homepage/Uvod-1.JPG'
 
-    - title       : 'Terasa s pergolou'
+    - title       : 'Foto 2'
       description : ''
-      url         : '/assets/img/veranda-small.jpg'
+      url         : '/assets/img/homepage/Uvod-2.JPG'
 
-    - title       : 'Společenská místnost'
+    - title       : 'Foto 3'
       description : ''
-      url         : '/assets/img/hala-small.jpg'
+      url         : '/assets/img/homepage/Uvod-3.JPG'
 
-    - title       : 'Pokoj Špičák'
+    - title       : 'Foto 4'
       description : ''
-      url         : '/assets/img/hala-small.jpg'
+      url         : '/assets/img/homepage/Uvod-4.JPG'
+
+    - title       : 'Foto 5'
+      description : ''
+      url         : '/assets/img/homepage/Uvod-5.JPG'
+
+    - title       : 'Foto 6'
+      description : ''
+      url         : '/assets/img/homepage/Uvod-6.JPG'
+
+    - title       : 'Foto 7'
+      description : ''
+      url         : '/assets/img/homepage/Uvod-7.JPG'
 
 pictograms:
     tv:
