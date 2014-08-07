@@ -25,5 +25,5 @@ photos:
   - url         : 'Spolsoc-3.jpg'
     description : ''
 ---
-
+Společné prostory jsou soustředěny v přízemí a tvoří je společenská místnost s jídelnou, obývacím koutem, krbem a kuchyní vybavenou nádobím, příbory a elektrospotřebiči jako je mirkvlná trouba, ychlovarná konvice, sporák s trubou a 2 lednice.
 ...
