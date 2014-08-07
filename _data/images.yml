@@ -33,6 +33,23 @@ homepage:
       description : ''
       url         : '/assets/img/homepage/Uvod-7.JPG'
 
+    - title       : 'Foto 8'
+      description : ''
+      url         : '/assets/img/homepage/Uvod-8.JPG'
+
+    - title       : 'Foto 9'
+      description : ''
+      url         : '/assets/img/homepage/Uvod-9.JPG'
+
+    - title       : 'Foto 10'
+      description : ''
+      url         : '/assets/img/homepage/Uvod-10.JPG'
+
+    - title       : 'Foto 11'
+      description : ''
+      url         : '/assets/img/homepage/Uvod-11.JPG'
+
+
 pictograms:
     tv:
         title     : 'TV'

@@ -1,24 +1,9 @@
 # Partners
 
-- link        : 'http://www.kudyznudy.cz/?utm_source=kzn&utm_medium=partneri_kzn&utm_campaign=banner'
-  title       : 'Kudyznudy.cz - tipy na výlet'
-  img_grey    : '/assets/img/partners/kudyznudy-cz_grey.png'
-  img_color   : '/assets/img/partners/kudyznudy-cz.jpg'
-
-- link        : 'http://www.ceskemsnami.cz/'
-  title       : 'Českem s námi'
-  img_grey    : '/assets/img/partners/ceskemsnami-cz_grey.jpg'
-  img_color   : '/assets/img/partners/ceskemsnami-cz.jpg'
-
-- link        : 'http://www.ehotel.cz/'
-  title       : 'eHotel.cz'
-  img_grey    : '/assets/img/partners/ehotel-cz_grey.png'
-  img_color   : '/assets/img/partners/ehotel-cz.png'
-
-- link        : 'http://www.echalupy.cz/'
-  title       : 'eChalupy.cz'
-  img_grey    : '/assets/img/partners/echalupy-cz_grey.jpg'
-  img_color   : '/assets/img/partners/echalupy-cz.jpg'
+- link        : 'http://www.booking.com/hotel/cz/sumavsky-penzion-kristian.html?aid=330843;lang=cs'
+  title       : 'Booking.com'
+  img_grey    : 'http://q-ec.bstatic.com/static/img/b26logo/booking_logo_retina/22615963add19ac6b6d715a97c8d477e8b95b7ea.png'
+  img_color   : 'http://q-ec.bstatic.com/static/img/b26logo/booking_logo_retina/22615963add19ac6b6d715a97c8d477e8b95b7ea.png'
 
 - link        : 'http://www.kudyznudy.cz/?utm_source=kzn&utm_medium=partneri_kzn&utm_campaign=banner'
   title       : 'Kudyznudy.cz - tipy na výlet'
@@ -27,15 +12,22 @@
 
 - link        : 'http://www.ceskemsnami.cz/'
   title       : 'Českem s námi'
-  img_grey    : '/assets/img/partners/ceskemsnami-cz_grey.jpg'
-  img_color   : '/assets/img/partners/ceskemsnami-cz.jpg'
+  img_grey    : '/assets/img/partners/Ceskemsnami-CB-w126.png'
+  img_color   : '/assets/img/partners/Ceskemsnami-w126.png'
+  hidden      : '<span>Katalog <strong>chat a chalup</strong> k pronajmutí a další nabídka <a href="http://www.ceskemsnami.cz/ubytovani/sumava/" title="Ubytování Šumava">ubytování na Šumavě</a> s přímými kontakty</span>'
 
 - link        : 'http://www.ehotel.cz/'
   title       : 'eHotel.cz'
-  img_grey    : '/assets/img/partners/ehotel-cz_grey.png'
-  img_color   : '/assets/img/partners/ehotel-cz.png'
+  img_grey    : '/assets/img/partners/eHotel-CB-w126.png'
+  img_color   : '/assets/img/partners/eHotel-w126.png'
 
 - link        : 'http://www.echalupy.cz/'
   title       : 'eChalupy.cz'
-  img_grey    : '/assets/img/partners/echalupy-cz_grey.jpg'
-  img_color   : '/assets/img/partners/echalupy-cz.jpg'
+  img_grey    : '/assets/img/partners/Chaty-a-chalupy-CB-w126.png'
+  img_color   : '/assets/img/partners/Chaty-a-chalupy-CB.png'
+
+- link        : 'http://www.sumavanet.cz/'
+  title       : 'ŠumavaNet.CZ'
+  img_grey    : '/assets/img/partners/Sumavanet-CB2-w126.png'
+  img_color   : '/assets/img/partners/Sumavanet-w126.png'
+
