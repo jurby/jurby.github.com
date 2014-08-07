@@ -5,7 +5,7 @@ logo:
     url         : '/assets/img/kristian-logo.png'
 
 homepage:
-    - title       : 'Foto 1'
+    - title       : 'Penzion Kristián průčelí'
       description : ''
       url         : '/assets/img/homepage/Uvod-1.JPG'
 
@@ -32,6 +32,23 @@ homepage:
     - title       : 'Foto 7'
       description : ''
       url         : '/assets/img/homepage/Uvod-7.JPG'
+
+    - title       : 'Foto 8'
+      description : ''
+      url         : '/assets/img/homepage/Uvod-8.JPG'
+
+    - title       : 'Foto 9'
+      description : ''
+      url         : '/assets/img/homepage/Uvod-9.JPG'
+
+    - title       : 'Foto 10'
+      description : ''
+      url         : '/assets/img/homepage/Uvod-10.JPG'
+
+    - title       : 'Foto 11'
+      description : ''
+      url         : '/assets/img/homepage/Uvod-11.JPG'
+
 
 pictograms:
     tv:

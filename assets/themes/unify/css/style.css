@@ -13,6 +13,8 @@
 @import url(http://fonts.googleapis.com/css?family=Monda:400,700);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
 
+.hidden { position: absolute; left: -10000px; top: 0; width:1px; height:1px;}
+
 /* Layout */
 .navbar-brand {
 	font-size: 28px;
