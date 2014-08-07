@@ -5,7 +5,7 @@ tagline: "dvoulůžkový pokoj se společnou koupelnou"
 menu: ubytovani
 weight: 6
 permalink: /ubytovani/#pokoj-debrnik
-prices: 280 / 320 Kč za lůžko a noc
+prices: 250 / 290 Kč za lůžko a noc
 equipment:
   - wifi
   - nekuracky
