@@ -35,19 +35,19 @@ homepage:
 
     - title       : 'Foto 8'
       description : ''
-      url         : '/assets/img/homepage/Uvod-8.JPG'
+      url         : '/assets/img/homepage/Uvod-8.jpg'
 
     - title       : 'Foto 9'
       description : ''
-      url         : '/assets/img/homepage/Uvod-9.JPG'
+      url         : '/assets/img/homepage/Uvod-9.jpg'
 
     - title       : 'Foto 10'
       description : ''
-      url         : '/assets/img/homepage/Uvod-10.JPG'
+      url         : '/assets/img/homepage/Uvod-10.jpg'
 
     - title       : 'Foto 11'
       description : ''
-      url         : '/assets/img/homepage/Uvod-11.JPG'
+      url         : '/assets/img/homepage/Uvod-11.jpg'
 
 
 pictograms:

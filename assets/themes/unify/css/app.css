@@ -641,6 +641,35 @@ a.read-more:hover {
    margin-top: -10px !important;
 }
 
+/* Partners
+------------------------------------*/
+.partners {
+
+}
+.partners .partner {
+   float: left;
+   width: 126px;
+   height: 126px;
+   overflow: hidden;
+   position: relative;
+   background: #fafafa;
+}
+.partners .partner:hover {
+   background: #f6f6f6;
+}
+.partners .partner img {
+   top: 0;
+   left: 0;
+   display: none;
+   position: absolute;
+}
+.partners .partner img.bw { 
+   display: block;
+}
+.partners .partner:hover img.color { 
+   display: block;
+}
+
 /*Fancybox
 ------------------------------------*/
 /*For Topbar*/

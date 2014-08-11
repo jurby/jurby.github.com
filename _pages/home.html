@@ -86,36 +86,22 @@ permalink: /
     <!-- End Recent Works -->
 
     <!-- Our partners -->
-    <div id="partners" class="row clients">
-        <div class="headline"><h2>Naši partneři</h2></div>    
-        {% for partner in site.data.partners %}
-        <div class="col-md-2">
-            <a class="thumbnail" href="{{ partner.link }}" title="{{ partner.title }}" target="_blank">
-                <img src="{{ partner.img_grey }}" alt="{{ partner.title }}" />
-                <img src="{{ partner.img_color }}" alt="{{ partner.title }}" class="color-img hidden" />
-            </a>
-            <span class="hidden">{% capture slide_media %}{{ partner.hidden }}{% endcapture %}{{ slide_media }}</i>
+    <div class="row partners">
+        <div class="col-lg-12">
+            <div class="headline"><h2>Naši partneři</h2></div>
+            <div class="row">    
+                {% for partner in site.data.partners %}
+                <div class="col-md-2">
+                    <a class="partner" href="{{ partner.link }}" title="{{ partner.title }}" target="_blank">
+                        <img src="{{ partner.img_grey }}" alt="{{ partner.title }}" class="bw" />
+                        <img src="{{ partner.img_color }}" alt="{{ partner.title }}" class="color" />
+                    </a>
+                    <span class="hidden">{% capture slide_media %}{{ partner.hidden }}{% endcapture %}{{ slide_media }}</i>
+                </div>
+                {% endfor %}
+            </div>
         </div>
-        {% endfor %}
-    </div><!--/flexslider-->
+    </div>
     <!-- End Our Clients -->
-
-    <!-- Our partners -->
-    <div id="clients-flexslider" class="flexslider home clients">
-        <div class="headline"><h2>Naši partneři</h2></div>    
-        <ul class="slides">
-            {% for partner in site.data.partners %}
-            <li>
-                <a href="{{ partner.link }}" title="{{ partner.title }}" target="_blank">
-                    <img src="{{ partner.img_grey }}" alt="{{ partner.title }}" />
-                    <img src="{{ partner.img_color }}" alt="{{ partner.title }}" class="color-img" />
-                </a>
-                <span class="hidden">{% capture slide_media %}{{ partner.hidden }}{% endcapture %}{{ slide_media }}</i>
-            </li>
-            {% endfor %}
-        </ul>
-    </div><!--/flexslider-->
-    <!-- End Our Clients -->
-
 </div><!--/container-->     
 <!-- End Content Part -->
